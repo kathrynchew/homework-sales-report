@@ -20,7 +20,7 @@ for line in f:
 
     # Check if "salesperson" variable is in list "salespeople"
     # If it is, get the index in the list where "salesperson" is located
-    # and increment (can you do this???) the matching index in "melons_sold"
+    # and increment the matching index in "melons_sold"
     # by the value of "melons"
     if salesperson in salespeople:
         position = salespeople.index(salesperson)
